@@ -1,0 +1,39 @@
+body {
+  /* background: #000000; */
+  color: #FFFFFF;
+  font-family: 'Mazzard';
+  margin: 0;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  overflow-x: hidden;
+}
+
+#root {
+  background: url(./assets/bg.svg) no-repeat top center;
+  background-size: cover;
+}
+
+@media (max-width: 644px) {
+  body {
+    background-size: cover;
+    /* background: url(./assets/mobile_bg.svg) no-repeat;
+    background-position: 0px 2300px; */
+  }
+  #root {
+    background-size: cover;
+    background: url(./assets/mobile_bg2.svg) no-repeat top center;
+    background-position: -800px 0px;
+  }
+
+  .cursor {
+    background: transparent;
+  }
+}
+
+@media (min-width: 1188px) {
+  .cursor {
+    background: #FFFFFF;
+  }
+}

@@ -1,0 +1,246 @@
+.container {
+  margin-top: 183.99px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-bottom: 162px;
+}
+
+.bg1 {
+  width: 464px;
+  height: 691px;
+  background: url(../../assets/footer_bg1.svg);
+  border-radius: 36px;
+}
+
+.bg2 {
+  width: 320px;
+  height: 358px;
+  background: url(../../assets/footer_bg2.svg);
+}
+
+.bg3 {
+  width: 320px;
+  height: 358px;
+  background: url(../../assets/footer_bg3.svg);
+  margin-left: 36px;
+}
+
+.bg4 {
+  width: 676px;
+  height: 303px;
+  background: url(../../assets/footer_bg4.svg);
+  margin-top: 30px;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  opacity: 0.9;
+  -webkit-text-stroke: 0.3px white;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.container a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #AAAAAA;
+  cursor: pointer;
+  margin: 0;
+  margin-left: 13px;
+  -webkit-text-stroke: 0px white;
+  padding: 20px;
+}
+
+.container span {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  -webkit-text-stroke: 0.4px white;
+}
+
+.bg1 span {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-stroke: 0px transparent;
+}
+
+.bg1 p {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  opacity: 0.9;
+  -webkit-text-stroke: 0.4px white;
+}
+
+.bg1 p:nth-child(1) {
+  padding-top: 351px;
+}
+
+.bg1 p:nth-child(2) {
+  margin-top: 61px;
+  margin-bottom: 51px;
+}
+
+.bg2 p:nth-child(1) {
+  padding-top: 20px;
+}
+
+.bg2 p:nth-child(2) {
+  margin-top: 61px;
+  margin-bottom: 31px;
+}
+
+.bg3 p:nth-child(1) {
+  padding-top: 20px;
+}
+
+.bg3 p:nth-child(2) {
+  margin-top: 61px;
+  margin-bottom: 31px;
+}
+
+.bg4 .miniheader {
+  padding-top: 20px;
+}
+
+.bg4 p:nth-child(2) {
+  margin-top: 41px;
+  margin-bottom: 51px;
+}
+
+.miniheader {
+  font-weight: 500;
+  font-size: 15px !important;
+  line-height: 18px;
+  color: #AAAAAA;
+  -webkit-text-stroke: 0px white !important;
+}
+
+.slide {
+  margin-left: 30px;
+}
+
+@media (max-width: 1188px) {
+  .slide {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container {
+    flex-direction: column;
+    width: 390px;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .pare {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .bg1 {
+    width: 334px;
+    height: 476px;
+    background: url(../../assets/mob_footer_bg1.svg);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .bg2 {
+    width: 334px;
+    height: 304px;
+    background: url(../../assets/mob_footer_bg2.svg);
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .bg3 {
+    width: 332px;
+    height: 305px;
+    background: url(../../assets/mob_footer_bg3.svg);
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .bg4 {
+    width: 335px;
+    height: 426px;
+    background: url(../../assets/mob_footer_bg4.svg);
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .bg1 p:nth-child(1) {
+    padding-top: 35px;
+  }
+
+  .bg1 p:nth-child(2) {
+    margin-top: 25px;
+    margin-bottom: 26px;
+  }
+
+  .bg2 p:nth-child(1) {
+    padding-top: 25.46px;
+  }
+
+  .bg2 p:nth-child(2) {
+    margin-top: 30.76px;
+    margin-bottom: 21px;
+  }
+
+  .bg3 p:nth-child(1) {
+    padding-top: 25.46px;
+  }
+
+  .bg3 p:nth-child(2) {
+    margin-top: 25.54px;
+    margin-bottom: 27px;
+  }
+
+  .bg4 .miniheader {
+    padding-top: 25px;
+  }
+
+  .bg4 p:nth-child(2) {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .miniheader {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .cotainer p {
+    font-weight: 400;
+    font-size: 32.2759px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    opacity: 0.9;
+  }
+
+  .container a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

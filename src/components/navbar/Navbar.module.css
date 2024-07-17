@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  margin-top: 22px;
+}
+
+.container a {
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.navlinks a {
+  margin-right: 45px;
+}
+
+.navlinks > :last-child {
+  margin: 0;
+}
+
+.nav {
+  width: 953px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.careerButton {
+  width: 170px;
+  height: 60px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 600;background: linear-gradient(140.6deg, #FFFFFF -27.18%, #DEDEDE 126.06%);
+  box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+  font-size: 20px;
+}
+
+.careerButton img {
+  width: 13.66px;
+  height: 13.66px;
+  margin-left: 13.34px;
+}
+
+@media (min-width: 1188px) {
+  .menu {
+    display: none;
+  }
+  .mobile_navlinks {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1188px) {
+  .container {
+    width: 85.64%;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .mobile_navlinks {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 5%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    left: 40%;
+    transform-origin: 100%;
+    width: 50%;
+  }
+
+  .mobile_navlinks > :last-child {
+    margin-top: 5vh;
+  }
+
+  .mobile_navlinks a {
+    margin: 0;
+    margin-top: 5vh;
+  }
+
+  .careerButton {
+    display: none;
+  }
+
+  .mobile_careerButton {
+    width: 170px;
+    height: 60px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 600;background: linear-gradient(140.6deg, #FFFFFF -27.18%, #DEDEDE 126.06%);
+    box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    font-size: 20px;
+  }
+
+  .mobile_careerButton img {
+    width: 13.66px;
+    height: 13.66px;
+    margin-left: 13.34px;
+  }
+
+  .menu {
+    background: transparent; 
+    border: none;
+    cursor: pointer;
+    height: 8px;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
